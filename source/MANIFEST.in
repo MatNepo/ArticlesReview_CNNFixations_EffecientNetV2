@@ -1,0 +1,11 @@
+include timm/models/_pruned/*.txt
+include timm/data/_info/*.txt
+include timm/data/_info/*.json
+exclude input/*
+exclude output/*
+exclude venv/*
+exclude .idea/*
+exclude __pycache__/*
+exclude *.pth
+exclude results/*
+exclude models/efficientnet_v2_1/*
